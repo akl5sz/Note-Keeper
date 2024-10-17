@@ -1,9 +1,13 @@
 import React from "react";
+import NoteAltIcon from "@mui/icons-material/NoteAlt";
 
 function Header() {
   return (
     <header>
-      <h1>Notes Keeper</h1>
+      <h1 style={{ justifyContent: "center" }}>
+        <NoteAltIcon />
+        Keeper
+      </h1>
     </header>
   );
 }
